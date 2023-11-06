@@ -78,3 +78,13 @@
  06-11-2023 09:54:03:952 [pid=19471 tid=19471] WARN   cufio-plat:429 GPU index 0 NVIDIA GeForce RTX 3060: Model Not Supported
  06-11-2023 09:54:03:952 [pid=19471 tid=19471] WARN   cufio-udev:165 failed in udev device create: /sys/bus/pci/devices/0000:01:00.0
  06-11-2023 09:54:04:2 [pid=19471 tid=19471] ERROR  cufio-topo-udev:431 no device entries present in platform topology
+ 06-11-2023 11:43:21:263 [pid=19686 tid=19686] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 06-11-2023 11:43:21:264 [pid=19686 tid=19686] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 06-11-2023 11:43:21:264 [pid=19686 tid=19686] WARN   0:172 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 06-11-2023 11:43:21:265 [pid=19686 tid=19686] NOTICE  cufio-drv:705 running in compatible mode
+ 06-11-2023 11:43:21:265 [pid=19686 tid=19686] ERROR  cufio-plat:101 cannot open path /sys/bus/pci/devices/0000:01:00.0/resource No such file or directory
+ 06-11-2023 11:43:21:265 [pid=19686 tid=19686] WARN   cufio-plat:429 GPU index 0 NVIDIA GeForce RTX 3060: Model Not Supported
+ 06-11-2023 11:43:21:266 [pid=19686 tid=19686] WARN   cufio-udev:165 failed in udev device create: /sys/bus/pci/devices/0000:01:00.0
+ 06-11-2023 11:43:21:316 [pid=19686 tid=19686] ERROR  cufio-topo-udev:431 no device entries present in platform topology
