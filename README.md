@@ -8,3 +8,6 @@ The performance of both methods was measured. Their differences in terms of spee
 
 RAPIDS provides unmatched speed with familiar APIs that match the most popular PyData libraries. Built on state-of-the-art foundations like NVIDIA CUDA and Apache Arrow, it unlocks the speed of GPUs with code you already know.
 
+Kepler out map: https://sukruburakcetin.github.io/rapids-app/
+
+![alt text](https://images2.imgbox.com/56/25/j6jTjs4P_o.png)![alt text](https://images2.imgbox.com/91/2a/hp6GtGxY_o.png)
